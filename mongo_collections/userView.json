@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0565c"
+  },
+  "userId": 1,
+  "viewDate": "2020-11-24",
+  "productId": "5fbbbb77d9de2f25a498161b"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0565d"
+  },
+  "userId": 3,
+  "viewDate": "2020-11-23",
+  "productId": "5fbbbb77d9de2f25a498161c"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0565e"
+  },
+  "userId": 2,
+  "viewDate": "2020-11-13",
+  "productId": "5fbbbb77d9de2f25a498161c"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0565f"
+  },
+  "userId": 2,
+  "viewDate": "2020-06-16",
+  "productId": "5fbbbb77d9de2f25a498161d"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05660"
+  },
+  "userId": 4,
+  "viewDate": "2020-05-17",
+  "productId": "5fbbbb77d9de2f25a498161d"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05661"
+  },
+  "userId": 5,
+  "viewDate": "2020-07-11",
+  "productId": "5fbbbb77d9de2f25a498161c"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05662"
+  },
+  "userId": 5,
+  "viewDate": "2020-07-13",
+  "productId": "5fbbbb77d9de2f25a498161d"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05663"
+  },
+  "userId": 3,
+  "viewDate": "2020-07-22",
+  "productId": "5fbbbb77d9de2f25a498161b"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05664"
+  },
+  "userId": 4,
+  "viewDate": "2020-11-23",
+  "productId": "5fbbbb77d9de2f25a498161b"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05665"
+  },
+  "userId": 1,
+  "viewDate": "2020-11-10",
+  "productId": "5fbbbb77d9de2f25a498161b"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05666"
+  },
+  "userId": 4,
+  "viewDate": "2020-07-14",
+  "productId": "5fbbbb77d9de2f25a498161c"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05667"
+  },
+  "userId": 5,
+  "viewDate": "2020-04-11",
+  "productId": "5fbbbb77d9de2f25a498161d"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05668"
+  },
+  "userId": 3,
+  "viewDate": "2020-03-10",
+  "productId": "5fbbbb77d9de2f25a498161d"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb05669"
+  },
+  "userId": 4,
+  "viewDate": "2020-08-19",
+  "productId": "5fbbbb77d9de2f25a498161c"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0566a"
+  },
+  "userId": 5,
+  "viewDate": "2020-11-10",
+  "productId": "5fbbbb77d9de2f25a498161b"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0566b"
+  },
+  "userId": 3,
+  "viewDate": "2020-06-19",
+  "productId": "5fbbbb77d9de2f25a498161c"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0566c"
+  },
+  "userId": 1,
+  "viewDate": "2020-06-19",
+  "productId": "5fbbbb77d9de2f25a498161d"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0566d"
+  },
+  "userId": 4,
+  "viewDate": "2020-01-17",
+  "productId": "5fbbbb77d9de2f25a498161b"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0566e"
+  },
+  "userId": 3,
+  "viewDate": "2020-01-17",
+  "productId": "5fbbbb77d9de2f25a498161c"
+},{
+  "_id": {
+    "$oid": "5fbbbf31eca72525fcb0566f"
+  },
+  "userId": 2,
+  "viewDate": "2020-01-17",
+  "productId": "5fbbbb77d9de2f25a498161d"
+}]

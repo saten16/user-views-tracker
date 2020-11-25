@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Users</title>
+    <script>
+        var fromDate = undefined;
+        var toDate = undefined;
+
+        function onFromDateChange(event) {
+            fromDate = event.target.value;
+        }
+
+        function onToDateChange(event) {
+            toDate = event.target.value;
+        }
+
+        function onDateRangeSubmit(event) {
+            if (fromDate && toDate) {
+                const customDateLinkTag = document.createElement('a');
+                if (fromDate <= toDate) {
+                    customDateLinkTag.href = `?filter=${fromDate}/${toDate}`;
+                    customDateLinkTag.click();
+                } else {
+                    alert('from date greater than to date');
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <ul class="nav justify-content-center mb-4">
+                <li class="nav-item">
+                    <a class="nav-link" href="?filter=daily">daily</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="?filter=weekly">weekly</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="?filter=monthly">monthly</a>
+                </li>
+            </ul>
+    
+            <div>
+                <div class="form-group">
+                    <label>From:</label>
+                    <input type="date" class="form-control" onchange="onFromDateChange(event)">
+                </div>
+                <div class="form-group">
+                    <label>To:</label>
+                    <input type="date" class="form-control" onchange="onToDateChange(event)">
+                </div>
+            </div>
+            
+            <button onclick="onDateRangeSubmit(event)" class="btn btn-primary btn-primary mb-3">
+                Submit
+            </button>
+        </div>
+
+        <table class="table table-bordered table-dark">
+            <thead>
+                <tr>
+                    <th>userId</th>
+                    <th>productId</th>
+                    <th>viewDate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <%           
+                    result
+                    .sort((a, b) => b.viewDate > a.viewDate ? 1: -1)
+                    .map(item => { %>
+                        <tr>
+                            <td><%= item.userId %></td>
+                            <td><%= item.productId %></td>
+                            <td><%= item.viewDate %></td>
+                        </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
